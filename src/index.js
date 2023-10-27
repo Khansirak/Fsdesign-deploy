@@ -21,7 +21,7 @@ import store from './redux/reducer'; // Your combined reducers
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="Fsdesign-deploy">
     <ReactFlowProvider>
     <Provider store={store}>
         <App />
